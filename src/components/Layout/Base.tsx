@@ -35,21 +35,21 @@ const tabs = [
     {
         id:1,
         text:"Explore",
-        Icon:<ExploreIcon/>
+        Icon:<ExploreIcon style={{height:"40px", width:"50px"}}/>
     },
     {
         id:2,
         text:"Random Chat",
-        Icon:<RandomChatIcon/>
+        Icon:<RandomChatIcon style={{height:"40px", width:"50px"}}/>
     },
     {
         id:3,
         text:"Chat",
-        Icon:<ChatIcon/>
+        Icon:<ChatIcon style={{height:"40px", width:"50px"}}/>
     },
     {
         id:4,
         text:"Profile",
-        Icon:<ProfileIcon/>
+        Icon:<ProfileIcon style={{height:"40px", width:"50px"}}/>
     },
 ]
