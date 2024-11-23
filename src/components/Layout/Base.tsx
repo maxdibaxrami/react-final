@@ -5,10 +5,6 @@ import { ProfileIcon, ChatIcon, RandomChatIcon, ExploreIcon } from "../Icon"
 const BaseLayout = ({children}:any) => {
     const [currentTab, setCurrentTab] = useState(tabs[1].id)
     return <div>
-          <FixedLayout vertical="top" style={{padding: 16}}>
-            
-            
-          </FixedLayout>
           <div style={{overflow:"scroll", maxHeight:"100%"}}>
             {children}
           </div>
