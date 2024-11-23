@@ -9,7 +9,7 @@ const BaseLayout = ({children}:any) => {
             
             
           </FixedLayout>
-          <div>
+          <div style={{overflow:"scroll", height:"100%"}}>
             {children}
           </div>
           <FixedLayout vertical="bottom" style={{padding: 16}}>
