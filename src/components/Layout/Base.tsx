@@ -1,10 +1,14 @@
 import { FixedLayout, Tabbar } from "@telegram-apps/telegram-ui"
 import { useState } from "react"
-import { ProfileIcon, ChatIcon, RandomChatIcon, ExploreIcon } from "../Icon"
+import { ProfileIcon, ChatIcon, RandomChatIcon, ExploreIcon, Notfication } from "../Icon"
 
 const BaseLayout = ({children}:any) => {
     const [currentTab, setCurrentTab] = useState(tabs[1].id)
     return <div>
+          <FixedLayout vertical="top" style={{padding: 16}}>
+            
+            <Notfication style={{height:"35px", width:"35px"}}/>
+          </FixedLayout>
           <div style={{overflow:"scroll", maxHeight:"100%"}}>
             {children}
           </div>
