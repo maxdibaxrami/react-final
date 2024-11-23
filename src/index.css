@@ -3,3 +3,11 @@ body {
   padding: 0;
   margin: 0;
 }
+
+.container-topbar{
+  background-color: var(--tg-theme-section-bg-color);
+  padding: 12px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -8,50 +8,7 @@ export const DashboardPage: FC = () => {
   return (
     <Page back={false}>
       <BaseLayout>
-      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>
-      <h1>fdsfsdfsd</h1>
+    
       </BaseLayout>
     </Page>
   );

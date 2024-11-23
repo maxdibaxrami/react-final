@@ -1,25 +1,45 @@
-import { FixedLayout, Tabbar } from "@telegram-apps/telegram-ui"
+import { Avatar, FixedLayout, IconButton, Title, Tabbar } from "@telegram-apps/telegram-ui"
 import { useState } from "react"
 import { ProfileIcon, ChatIcon, RandomChatIcon, ExploreIcon, Notfication } from "../Icon"
 
 const BaseLayout = ({children}:any) => {
     const [currentTab, setCurrentTab] = useState(tabs[1].id)
     return <div>
-          <FixedLayout vertical="top" style={{padding: 16}}>
-            
-            <Notfication style={{height:"35px", width:"35px"}}/>
+          <FixedLayout  vertical="top" >
+            <div className="container-topbar">
+              <Avatar
+                acronym="vdf"
+                size={40}
+                src="https://avatars.githubusercontent.com/u/84640980?v=4"
+                />
+
+                <Title
+                    level="3"
+                    plain
+                    weight="3"
+                >
+                    Moll Moll
+                </Title>
+                
+                <IconButton
+                    mode="bezeled"
+                    size="s"
+                >
+                    <Notfication style={{height:"25px", width:"25px"}}/>
+                </IconButton>
+            </div>
           </FixedLayout>
           <div style={{overflow:"scroll", maxHeight:"100%"}}>
             {children}
           </div>
-          <FixedLayout vertical="bottom" style={{padding: 16}}>
+          <FixedLayout vertical="bottom">
            <Tabbar>
-        {tabs.map(({
-            id,
-            text,
-            Icon
-        }) => <Tabbar.Item key={id} text={text} selected={id === currentTab} onClick={() => setCurrentTab(id)}>
-                {Icon}
+                {tabs.map(({
+                    id,
+                    text,
+                    Icon
+                }) => <Tabbar.Item key={id} text={text} selected={id === currentTab} onClick={() => setCurrentTab(id)}>
+                        {Icon}
           </Tabbar.Item>)}
       </Tabbar>
 
